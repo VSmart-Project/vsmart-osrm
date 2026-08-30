@@ -19,7 +19,7 @@ bounding box out of the Vietnam extract with `osmium extract` before handing it 
 docker compose up   # starts OSRM on http://localhost:5050
 ```
 
-Then in `tracking-data-streaming-backend/.env`:
+Then in `vsmart-backend/.env`:
 
 ```env
 OSRM_URL=http://localhost:5050
